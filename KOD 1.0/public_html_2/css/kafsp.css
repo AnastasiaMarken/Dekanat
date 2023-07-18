@@ -1,0 +1,66 @@
+﻿body {
+      background: #dddddd;
+}
+
+
+
+p {
+  text-align: justify;	
+  font-size: 14pt;	
+}
+#im1  {
+	float: left;
+}
+
+#im2 {
+	float: right;
+}
+
+#im3 {
+	float: left;
+}
+
+
+#im4 {
+	float: right;
+}
+
+#im5 {
+	float: left;
+}
+
+#im6 {
+	float: left;
+}
+
+#im7 {
+	float: right;
+}
+
+
+
+table {
+	font-size: 12pt;
+	border: none;
+	border-collapse: collapse;
+	clear: both;
+	background: #dddddd;
+}
+
+caption {
+	font-style: italic;
+	color: #0000ff;
+	font-size: 16pt;
+}
+
+td, th {
+	border: thin dotted black;
+	paddind: 5px  
+}
+
+
+table strong {font-size: 12pt;}
+
+h2 {
+	color: #0000ff;	
+}

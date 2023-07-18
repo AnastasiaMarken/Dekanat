@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/public_html/index.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/public_html/main.css" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/public_html/new1.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/public_html/outtabp.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/public_html/reytp.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/public_html/start03.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/public_html/start3.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/public_html/stdek.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/public_html/stprep.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/public_html/zaltbl/dgpk.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/public_html/zaltbl/grup.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/public_html/zaltbl/prep.csv" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/public_html/zaltbl/prep.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/public_html/zaltbl/stud.csv" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/public_html/zaltbl/stud.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/public_html/zaltbl/users.php" charset="windows-1251" />
+    <file url="mock:///itiy2.css" charset="windows-1251" />
+  </component>
+</project>

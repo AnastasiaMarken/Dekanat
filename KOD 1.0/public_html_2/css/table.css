@@ -1,0 +1,36 @@
+﻿table.formdata {
+	border: 1px solid #5f6f7e;
+	border-collapse: collapse;
+	margin: 1em 0 2em 0;
+}
+table.formdata th {
+	border: 1px solid #5f6f7e;
+	background-color: #e2e2e2;
+	color: #000000;
+	text-align: left;
+	font-weight: normal;
+	padding: 0.2em 0.4em 0.2em 0.4em;
+	margin: 0;
+}
+table.formdata td {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #000000;
+}
+table.formdata input {
+	width: 75px;
+	padding: 0.2em 0.4em 0.2em 0.4em;
+	margin: 0;
+	border: 2px;
+}
+#tblitog {
+border: 1px solid #5f6f7e;
+	background-color: #e2e2e2;
+	color: #000000;
+	text-align: left;
+	font-weight: normal;
+	padding: 0.2em 0.4em 0.2em 0.4em;
+	margin: 0;
+	text-align: center;
+}

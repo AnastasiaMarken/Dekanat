@@ -1,0 +1,291 @@
+body, html {
+margin:0px; /*Это хорошая практика обнулять поля и отсупы, т.к. различные браузеры их по разному воспринимают. */
+padding:0px;
+text-align:center; /*Выравниваем макет по центру в старых версиях браузеров */
+}
+#container{
+background-color:#e1dde1;
+margin:0 auto;  /*выравниваем макет по центру в современных браузерах */
+text-align:left;  /*Отменяем tex-align:center заданное в Body. Делаем чтобы весь текст в макете выравнивался по левому краю */
+min-width:550px;  /*задаем минимальную ширину макета в современных браузерах */
+width:expression(   /*задаем минимальную ширину макета в старых версия браузера. Просто замените цифру на свою шиирину :) */
+(document.compatMode && document.compatMode == 'CSS1Compat')
+?
+(
+document.documentElement.clientWidth < 550
+?
+"550px"
+:
+"auto"
+)
+:
+(
+document.body.clientWidth < 550
+?
+"550px"
+:
+"auto"
+)
+);
+}
+
+/*Здесь пишем стили для шапки сайта */
+#header{
+background:url("images/line3.jpg") repeat-x;
+
+}
+#header h1 {
+
+	margin: 0; /* Обнуляем отсупы для заголовка первого уровня, находящегося в шапке. Это нужно обязательно делать, при использовании заголовков. Если используются параграфы, то тоже нужно обнулить отсупы для них. */
+	padding: 10px 0; /* Задаем поля */
+	color:#fff;
+}
+#header h3 {
+	margin: 0; /* Обнуляем отсупы для заголовка первого уровня, находящегося в шапке. Это нужно обязательно делать, при использовании заголовков. Если используются параграфы, то тоже нужно обнулить отсупы для них. */
+	padding: 10px 0; /* Задаем поля */
+	color:#fff;
+}
+
+#header img{
+float: left;
+margin: 30px 30px 15px 15px
+}
+
+#topmenu ul li {
+float:left;
+list-style:none;
+}
+#topmenu ul li a {
+color: #000;
+font-size:110%;
+display:block;
+padding:10px 10px;
+text-decoration:none;
+}
+#topmenu ul li.active a, #topmenu ul li a:hover{
+background-color: #4f4070;
+color: #e0dde1;
+}
+#topmenu ul{
+margin:0;
+padding:0;
+}
+#topmenu{
+margin-top:10px;
+}
+.clear{
+clear:both;
+}
+
+#imob1  {
+	float: left;
+}
+
+#megd {
+
+	width: 300px;
+	float: right;
+	padding: 0 10px 0 10px;
+	margin: 0;
+}
+
+#main1 {
+	margin-left:320px; 
+	margin-right:320px; 
+}
+#kabinet{
+background-color:#4f4070;
+border: 4px solid #4f4070;
+color:#fff;
+padding:5px 20px;
+}
+#kabinet-text, #kabinet-text a {
+color: #fff;
+font-size:80%;
+display:block;
+padding:1px 4px 4px 1px;
+text-decoration:none;
+}
+
+#exit a{
+color: #000;
+font-size:130%;
+display:block;
+padding:10px;
+text-decoration:none;
+}
+
+/*Здесь пишем стили для левой колонки сайта */
+#left{
+background-color:#e1dde1;
+width:180px;  /*ширина колонки */
+float:left;  /*обязательное выравнивание по левому краю,с включением обтекания*/
+}
+/*Здесь пишем стили для правой колонки сайта */
+#right{
+width:90px; /*ширина правой колонки */
+background-color:#e1dde1;
+float:right; /*обазятельное выравнивание колонки по правому краю с включением обтекания */
+}
+/*Здесь пишем стили для блока контента */
+#content{
+background-color:#e1dde1;
+margin:0px; /*обнуляем отступы сверху и снизу*/
+margin-left:180px; /*обязательный отступ слева, должен быть немного больше ширины левой колонки */
+margin-right:92px; /*Обязательный отступ справа, должен быть немного больше ширины правой колонки */
+}
+#content h3 {
+margin:0px; /* Обнуляем отсупы для заголовка первого уровня, находящегося в блоке контента.*/
+} 
+
+#facultet{
+background-color:#e1dde1;
+border: 4px solid #4f4070;
+padding:5px 20px;
+}
+
+#facultet img{
+float: left;
+margin: 40px 20px 10px 10px
+}
+
+#facultet p {
+margin:0px; /* Обнуляем отсупы для параграфов я, находящегося в блоке контента.*/
+padding:10px; /*задаем поля, т.е. чтобы был промежуток между строками, чтобы было понятно, что это параграф :)*/
+text-align:justify;
+}
+
+#facultet p:first-letter{
+color:#4f4070;
+font-size:160%;
+}
+
+.butt{
+   border-top: 1px solid #96d1f8;
+   background: #44cfaf;
+   background: -webkit-gradient(linear, left top, left bottom, from(#52bd18), to(#44cfaf));
+   background: -webkit-linear-gradient(top, #52bd18, #44cfaf);
+   background: -moz-linear-gradient(top, #52bd18, #44cfaf);
+   background: -ms-linear-gradient(top, #52bd18, #44cfaf);
+   background: -o-linear-gradient(top, #52bd18, #44cfaf);
+   padding: 14.5px 29px;
+   -webkit-border-radius: 31px;
+   -moz-border-radius: 31px;
+   border-radius: 31px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 22px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+}
+#right{text-align:right;}
+
+#ramka{
+background-color:#fff;
+border: 4px solid #4f4070;
+padding:5px 20px;
+}
+
+
+
+#name{
+color:#4f4070;
+font-size:160%;
+}
+#decanat img{
+float: left;
+margin: 20px 20px 10px 10px
+}
+
+
+
+/*атрибут, который опускает подвал сайта ниже всех блоков. Нужен для корректной работы макета. */
+#clear{
+height:0;
+font-size:1px;
+line-height:0px;
+clear:both;
+}
+/*Здесь пишем стили для подвала сайта */
+#footer{
+background:url("images/line4.jpg") repeat-x;
+	clear: both;
+	text-align: center;
+	color: #000000;
+}
+
+#footer p{
+margin:0px;  /* обнуляем отступы*/
+padding: 10px 0; /*  задаем поля */
+}
+
+
+/* Создание меню в header */
+.supermenu {
+	position: absolute;
+	z-index: 100;
+	top: 90px;
+	left: 130px;
+}
+.menu {
+	height: 19px;
+	background: #c3c3c3;
+	text-align: center;
+	fond-weight: bold;
+	color: #9e4fac;
+	float:left;
+	overflow: hidden;
+}
+
+#menu1 	{
+	width: 100px;	
+}
+
+#menu2 	{
+	width: 130px;
+}
+#menu3 	{
+	width: 80px;
+}
+
+#menu4 	{
+	width: 115px;
+}
+#menu5 	{
+	width: 150px;
+}
+
+
+
+.menu a {
+	padding-left: 5px;
+	display: block;
+	color: #9e4fac;
+	text-decoration: none;
+}
+.menu a:visited {
+		color: #9e4fac;
+}
+.menu a:hover {
+		color: #0000ff;
+		background: #ffffff;
+}
+.menu a:active {
+		color: #9e4fac;
+}
+
+/* Конец создания меню в header */ 

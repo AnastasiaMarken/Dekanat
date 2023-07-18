@@ -1,0 +1,26 @@
+﻿body {
+      background: #dddddd;
+}
+
+
+
+p,li {
+  text-align: justify;	
+  font-size: 14pt;	
+}
+#imob1  {
+	float: left;
+}
+
+#megd {
+
+	width: 300px;
+	float: right;
+	padding: 0 10px 0 10px;
+	margin: 0;
+}
+
+#main1 {
+	margin-left:320px; 
+	margin-right:320px; 
+}
